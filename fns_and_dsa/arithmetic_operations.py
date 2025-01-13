@@ -1,5 +1,5 @@
 
-def perform_operation(num1,num2,operation):
+def perform_operation(num1, num2, operation):
     """performs aithmetic operations based on the input given"""
     if operation == "add":
         return num1 + num2         # adds the inputs and returns the results
