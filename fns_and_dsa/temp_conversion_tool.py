@@ -16,7 +16,7 @@ def main():
         # Prompt the user to enter a temperature
         temp = int(input("Enter the temperature to convert: "))
         # Ask the user for the scale
-        scale = input("Is the temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
+        scale = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
         
         if scale == "C":
             # Convert Celsius to Fahrenheit
