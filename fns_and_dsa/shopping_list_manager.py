@@ -38,19 +38,19 @@ def display_menu():
 def main():
     while True:
         display_menu()
-        choice = input("\nEnter your choice (1-4): ").strip()
+        choice = input("\nEnter your choice: ").strip()
 
-        if choice == "1":
+        if choice == '1':
             add_item()
-        elif choice == "2":
+        elif choice == '2':
             remove_item()
-        elif choice == "3":
+        elif choice == '3':
             view_list()
-        elif choice == "4":
-            print("Exiting the Shopping List Manager. Goodbye!")
+        elif choice == '4':
+            print("Goodbye!")
             break
         else:
-            print("Invalid choice. Please enter a number between 1 and 4.")
+            print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     main()
